@@ -11,6 +11,7 @@
 		055313D82C6911580072E522 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313D72C6911580072E522 /* ContentView.swift */; };
 		055313DD2C6911590072E522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313DC2C6911590072E522 /* Preview Assets.xcassets */; };
 		055313E42C69130F0072E522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313E32C69130F0072E522 /* Assets.xcassets */; };
+		055313E72C6914840072E522 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313E62C6914840072E522 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		055313D72C6911580072E522 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		055313DC2C6911590072E522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		055313E32C69130F0072E522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
+		055313E62C6914840072E522 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		055313D42C6911580072E522 /* Coin $tratum */ = {
 			isa = PBXGroup;
 			children = (
+				055313E52C6914350072E522 /* Extensions */,
 				055313D52C6911580072E522 /* Coin__tratumApp.swift */,
 				055313D72C6911580072E522 /* ContentView.swift */,
 				055313E32C69130F0072E522 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				055313DC2C6911590072E522 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		055313E52C6914350072E522 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				055313E62C6914840072E522 /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				055313D82C6911580072E522 /* ContentView.swift in Sources */,
 				055313D62C6911580072E522 /* Coin__tratumApp.swift in Sources */,
+				055313E72C6914840072E522 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
