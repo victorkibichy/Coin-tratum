@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		055313D62C6911580072E522 /* Coin__tratumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313D52C6911580072E522 /* Coin__tratumApp.swift */; };
 		055313D82C6911580072E522 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313D72C6911580072E522 /* ContentView.swift */; };
-		055313DA2C6911590072E522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313D92C6911590072E522 /* Assets.xcassets */; };
 		055313DD2C6911590072E522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313DC2C6911590072E522 /* Preview Assets.xcassets */; };
+		055313E42C69130F0072E522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313E32C69130F0072E522 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		055313D22C6911580072E522 /* Coin $tratum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin $tratum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		055313D52C6911580072E522 /* Coin__tratumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin__tratumApp.swift; sourceTree = "<group>"; };
 		055313D72C6911580072E522 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		055313D92C6911590072E522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		055313DC2C6911590072E522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		055313E32C69130F0072E522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 			children = (
 				055313D52C6911580072E522 /* Coin__tratumApp.swift */,
 				055313D72C6911580072E522 /* ContentView.swift */,
-				055313D92C6911590072E522 /* Assets.xcassets */,
+				055313E32C69130F0072E522 /* Assets.xcassets */,
 				055313DB2C6911590072E522 /* Preview Content */,
 			);
 			path = "Coin $tratum";
@@ -126,7 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				055313DD2C6911590072E522 /* Preview Assets.xcassets in Resources */,
-				055313DA2C6911590072E522 /* Assets.xcassets in Resources */,
+				055313E42C69130F0072E522 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +270,12 @@
 				DEVELOPMENT_TEAM = TN8F86PNVM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +300,12 @@
 				DEVELOPMENT_TEAM = TN8F86PNVM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
