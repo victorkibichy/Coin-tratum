@@ -12,6 +12,8 @@
 		055313DD2C6911590072E522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313DC2C6911590072E522 /* Preview Assets.xcassets */; };
 		055313E42C69130F0072E522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313E32C69130F0072E522 /* Assets.xcassets */; };
 		055313E72C6914840072E522 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313E62C6914840072E522 /* Color.swift */; };
+		0597513E2C6B346C007986BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597513D2C6B346C007986BE /* HomeView.swift */; };
+		059751422C6B3BA9007986BE /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059751412C6B3BA9007986BE /* CircleButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		055313DC2C6911590072E522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		055313E32C69130F0072E522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/Resources/Assets.xcassets; sourceTree = "<group>"; };
 		055313E62C6914840072E522 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		0597513D2C6B346C007986BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		059751412C6B3BA9007986BE /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 		055313D42C6911580072E522 /* Coin $tratum */ = {
 			isa = PBXGroup;
 			children = (
+				059751392C6B3361007986BE /* Core */,
 				055313E52C6914350072E522 /* Extensions */,
 				055313D52C6911580072E522 /* Coin__tratumApp.swift */,
 				055313D72C6911580072E522 /* ContentView.swift */,
@@ -76,6 +81,55 @@
 				055313E62C6914840072E522 /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		059751392C6B3361007986BE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0597513A2C6B33B7007986BE /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0597513A2C6B33B7007986BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0597513F2C6B3B3F007986BE /* Components */,
+				0597513C2C6B342D007986BE /* ViewModels */,
+				0597513B2C6B33CF007986BE /* Vews */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0597513B2C6B33CF007986BE /* Vews */ = {
+			isa = PBXGroup;
+			children = (
+				0597513D2C6B346C007986BE /* HomeView.swift */,
+			);
+			path = Vews;
+			sourceTree = "<group>";
+		};
+		0597513C2C6B342D007986BE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0597513F2C6B3B3F007986BE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				059751402C6B3B83007986BE /* CircleButton */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		059751402C6B3B83007986BE /* CircleButton */ = {
+			isa = PBXGroup;
+			children = (
+				059751412C6B3BA9007986BE /* CircleButtonView.swift */,
+			);
+			path = CircleButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +203,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				055313D82C6911580072E522 /* ContentView.swift in Sources */,
+				0597513E2C6B346C007986BE /* HomeView.swift in Sources */,
 				055313D62C6911580072E522 /* Coin__tratumApp.swift in Sources */,
+				059751422C6B3BA9007986BE /* CircleButtonView.swift in Sources */,
 				055313E72C6914840072E522 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
