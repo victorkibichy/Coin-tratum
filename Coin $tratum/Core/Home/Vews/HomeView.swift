@@ -17,7 +17,24 @@ struct HomeView: View {
             
             //content layer
             VStack{
-                Text("Header")
+                
+                HStack{
+                    CircleButtonView(iconName: "info")
+                    
+                    Spacer()
+                    
+                    Text("Live Prices")
+                        .font(.headline)
+                        .fontWeight(.heavy)
+                        .foregroundColor(Color.theme.accent)
+                    Spacer()
+                    
+                    CircleButtonView(iconName: "chevron.right")
+
+
+                    
+                }
+                
                 Spacer(minLength: 0)
                   
             }
