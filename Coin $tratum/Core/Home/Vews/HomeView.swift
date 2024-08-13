@@ -24,6 +24,9 @@ struct HomeView: View {
                 HStack{
                     CircleButtonView(iconName: showPortfolio ? "plus" : "info")
                         .animation(.none)
+                        .background(
+                        CircleButtonAnimationView(animate: $showPortfolio)
+                        )
                     
                     Spacer()
                     
@@ -42,9 +45,6 @@ struct HomeView: View {
                                 showPortfolio.toggle()
                             }
                         }
-
-
-                    
                 }
                 
                 Spacer(minLength: 0)
