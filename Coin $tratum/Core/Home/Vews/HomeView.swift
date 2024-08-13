@@ -27,10 +27,12 @@ struct HomeView: View {
                     
                     Spacer()
                     
-                    Text("Live Prices")
+                    Text(showPortfolio ? "Portfolio" : "Live Prices")
                         .font(.headline)
                         .fontWeight(.heavy)
                         .foregroundColor(Color.theme.accent)
+                        .animation(.none)
+                    
                     Spacer()
                     
                     CircleButtonView(iconName: "chevron.right")
