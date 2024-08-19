@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05396A2F2C7314AE00221ED8 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05396A2E2C7314AE00221ED8 /* CoinRowView.swift */; };
+		05396A312C73156E00221ED8 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05396A302C73156E00221ED8 /* PreviewProvider.swift */; };
+		05396A332C73242400221ED8 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05396A322C73242400221ED8 /* Double.swift */; };
 		055313D62C6911580072E522 /* Coin__tratumApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313D52C6911580072E522 /* Coin__tratumApp.swift */; };
 		055313D82C6911580072E522 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313D72C6911580072E522 /* ContentView.swift */; };
 		055313DD2C6911590072E522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313DC2C6911590072E522 /* Preview Assets.xcassets */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05396A2E2C7314AE00221ED8 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
+		05396A302C73156E00221ED8 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		05396A322C73242400221ED8 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		055313D22C6911580072E522 /* Coin $tratum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coin $tratum.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		055313D52C6911580072E522 /* Coin__tratumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin__tratumApp.swift; sourceTree = "<group>"; };
 		055313D72C6911580072E522 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				055313E62C6914840072E522 /* Color.swift */,
+				05396A302C73156E00221ED8 /* PreviewProvider.swift */,
+				05396A322C73242400221ED8 /* Double.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -110,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				0597513D2C6B346C007986BE /* HomeView.swift */,
+				05396A2E2C7314AE00221ED8 /* CoinRowView.swift */,
 			);
 			path = Vews;
 			sourceTree = "<group>";
@@ -216,12 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05396A2F2C7314AE00221ED8 /* CoinRowView.swift in Sources */,
 				055313D82C6911580072E522 /* ContentView.swift in Sources */,
 				0597513E2C6B346C007986BE /* HomeView.swift in Sources */,
 				055313D62C6911580072E522 /* Coin__tratumApp.swift in Sources */,
 				059751422C6B3BA9007986BE /* CircleButtonView.swift in Sources */,
 				055313E72C6914840072E522 /* Color.swift in Sources */,
 				059751442C6B66EF007986BE /* CircleButtonAnimationView.swift in Sources */,
+				05396A312C73156E00221ED8 /* PreviewProvider.swift in Sources */,
+				05396A332C73242400221ED8 /* Double.swift in Sources */,
 				05A4DD1D2C6C8E5300F048DE /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

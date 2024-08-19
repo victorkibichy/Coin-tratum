@@ -58,6 +58,7 @@ import Foundation
  */
 
 
+import Foundation
 
 
 struct CoinModel: Identifiable, Codable {
