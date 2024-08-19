@@ -22,7 +22,6 @@ struct CoinRowView: View {
                 centerColumn
             }
             rightColumn
-                .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
 
             
         }
@@ -33,7 +32,14 @@ struct CoinRowView: View {
 
 struct CoinRowView_Previews: PreviewProvider {
     static var previews: some View {
-        CoinRowView(coin: dev.coin, showHoldingsColumn: true)
+        Group {
+            CoinRowView(coin: dev.coin, showHoldingsColumn: true)
+                .previewLayout(.sizeThatFits)
+            
+            CoinRowView(coin: dev.coin, showHoldingsColumn: true)
+                .previewLayout(.sizeThatFits)
+                .preferredColorScheme(.dark)
+        }
     }
 }
 
@@ -74,6 +80,8 @@ extension CoinRowView {
                         Color.theme.red                    )
 
         }
+        .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+
         
     }
 
