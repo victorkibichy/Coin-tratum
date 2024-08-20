@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct Coin__tratumApp: App {
+    
+    @StateObject var vm = HomeViewModel()
+    
     var body: some Scene {
         WindowGroup {
             NavigationView{
                 HomeView()
                     .navigationBarHidden(true)
             }
+            .environmentObject(vm)
             
         }
     }
