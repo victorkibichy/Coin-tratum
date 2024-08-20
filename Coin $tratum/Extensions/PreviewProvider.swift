@@ -22,7 +22,7 @@ class DeveloperPreview {
     static let instance = DeveloperPreview()
     private init() { }
 //
-//    let homeVM = HomeViewModel()
+    let homeVM = HomeViewModel()
 //
 //    let stat1 = StatisticModel(title: "Market Cap", value: "$12.5Bn", percentageChange: 25.34)
 //    let stat2 = StatisticModel(title: "Total Volume", value: "$1.23Tr")
@@ -231,8 +231,4 @@ class DeveloperPreview {
 }
 
 
-struct Previews_PreviewProvider_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
-    }
-}
+

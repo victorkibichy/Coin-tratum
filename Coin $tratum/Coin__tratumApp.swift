@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct Coin__tratumApp: App {
     
-    @StateObject var vm = HomeViewModel()
+    @StateObject private var vm = HomeViewModel()
     
     var body: some Scene {
         WindowGroup {
