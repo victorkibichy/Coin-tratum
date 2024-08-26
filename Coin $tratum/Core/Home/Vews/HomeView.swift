@@ -24,6 +24,12 @@ struct HomeView: View {
                 
                 homeHeader
                 
+                columnTitles
+                
+                .font(.caption)
+                .foregroundColor(Color.theme.secondaryText)
+                .padding(.horizontal)
+                
                 if !showPortfolio {
                     
                     allCoins
@@ -106,5 +112,19 @@ extension HomeView  {
         }
         .listStyle(PlainListStyle())
         
+    }
+    private var columnTitles: some View {
+        HStack {
+            Text("Coin")
+            Spacer()
+            
+            if showPortfolio {
+                Text("Holdings")
+            }
+           
+            Text("Price")
+                .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+
+        }
     }
 }
