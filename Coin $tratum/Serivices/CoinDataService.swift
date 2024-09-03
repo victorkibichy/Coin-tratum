@@ -23,7 +23,7 @@ class CoinDataService {
         else { return }
         
         
-        URLSession.shared.dataTaskPublisher(for: url)
+       coinSubscription = URLSession.shared.dataTaskPublisher(for: url)
             .subscribe(on: DispatchQueue.global(qos: .default))
             .tryMap { (output) -> Data in
                 
