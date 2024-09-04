@@ -15,6 +15,7 @@
 		055313DD2C6911590072E522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313DC2C6911590072E522 /* Preview Assets.xcassets */; };
 		055313E72C6914840072E522 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313E62C6914840072E522 /* Color.swift */; };
 		058A85042C7C5568000E10A8 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058A85032C7C5568000E10A8 /* CoinDataService.swift */; };
+		058D24392C88318800A25876 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D24382C88318800A25876 /* NetworkingManager.swift */; };
 		0591E6272C74842600673FF7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591E6262C74842600673FF7 /* HomeViewModel.swift */; };
 		0597513E2C6B346C007986BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0597513D2C6B346C007986BE /* HomeView.swift */; };
 		059751422C6B3BA9007986BE /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059751412C6B3BA9007986BE /* CircleButtonView.swift */; };
@@ -33,6 +34,7 @@
 		055313DC2C6911590072E522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		055313E62C6914840072E522 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		058A85032C7C5568000E10A8 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		058D24382C88318800A25876 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		0591E6262C74842600673FF7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		0597513D2C6B346C007986BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		059751412C6B3BA9007986BE /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		055313D42C6911580072E522 /* Coin $tratum */ = {
 			isa = PBXGroup;
 			children = (
+				058D24372C88314300A25876 /* Utilities */,
 				058A85022C7C4A3E000E10A8 /* Serivices */,
 				05A4DD1B2C6C8E1D00F048DE /* Models */,
 				059751392C6B3361007986BE /* Core */,
@@ -107,6 +110,14 @@
 				058A85032C7C5568000E10A8 /* CoinDataService.swift */,
 			);
 			path = Serivices;
+			sourceTree = "<group>";
+		};
+		058D24372C88314300A25876 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				058D24382C88318800A25876 /* NetworkingManager.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		059751392C6B3361007986BE /* Core */ = {
@@ -247,6 +258,7 @@
 				055313D62C6911580072E522 /* Coin__tratumApp.swift in Sources */,
 				059751422C6B3BA9007986BE /* CircleButtonView.swift in Sources */,
 				055313E72C6914840072E522 /* Color.swift in Sources */,
+				058D24392C88318800A25876 /* NetworkingManager.swift in Sources */,
 				059751442C6B66EF007986BE /* CircleButtonAnimationView.swift in Sources */,
 				05396A312C73156E00221ED8 /* PreviewProvider.swift in Sources */,
 				05396A332C73242400221ED8 /* Double.swift in Sources */,
