@@ -14,6 +14,7 @@
 		055313D82C6911580072E522 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313D72C6911580072E522 /* ContentView.swift */; };
 		055313DD2C6911590072E522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 055313DC2C6911590072E522 /* Preview Assets.xcassets */; };
 		055313E72C6914840072E522 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055313E62C6914840072E522 /* Color.swift */; };
+		05653B1E2CAC126000DB26C3 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05653B1D2CAC126000DB26C3 /* UIApplication.swift */; };
 		056ED99E2CA29E0A00FF004E /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056ED99D2CA29E0A00FF004E /* SearchBarView.swift */; };
 		058A85042C7C5568000E10A8 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058A85032C7C5568000E10A8 /* CoinDataService.swift */; };
 		058D24392C88318800A25876 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058D24382C88318800A25876 /* NetworkingManager.swift */; };
@@ -38,6 +39,7 @@
 		055313D72C6911580072E522 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		055313DC2C6911590072E522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		055313E62C6914840072E522 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		05653B1D2CAC126000DB26C3 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		056ED99D2CA29E0A00FF004E /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		058A85032C7C5568000E10A8 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		058D24382C88318800A25876 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				055313E62C6914840072E522 /* Color.swift */,
 				05396A302C73156E00221ED8 /* PreviewProvider.swift */,
 				05396A322C73242400221ED8 /* Double.swift */,
+				05653B1D2CAC126000DB26C3 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 				055313D82C6911580072E522 /* ContentView.swift in Sources */,
 				0597513E2C6B346C007986BE /* HomeView.swift in Sources */,
 				05D341052C8ED219001D6294 /* CoinImageView.swift in Sources */,
+				05653B1E2CAC126000DB26C3 /* UIApplication.swift in Sources */,
 				055313D62C6911580072E522 /* Coin__tratumApp.swift in Sources */,
 				059751422C6B3BA9007986BE /* CircleButtonView.swift in Sources */,
 				055313E72C6914840072E522 /* Color.swift in Sources */,

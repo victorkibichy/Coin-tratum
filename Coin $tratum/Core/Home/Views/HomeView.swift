@@ -24,6 +24,10 @@ struct HomeView: View {
                 
                 homeHeader
                 
+                
+                SearchBarView(searchText: $vm.searchText)
+                
+                
                 columnTitles
                 
                 .font(.caption)
