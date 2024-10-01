@@ -20,6 +20,7 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             //content layer
+            
             VStack{
                 
                 homeHeader
